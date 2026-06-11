@@ -422,16 +422,16 @@ a { color: inherit; text-decoration: none; }
     width: 100% !important;
     margin: 0 !important;
     padding: 0 !important;
-    gap: 14px !important;
+    gap: 8px !important;
     box-sizing: border-box !important;
   }
   .dc-grid {
     grid-template-columns: calc((100% - 56px) / 3) 1fr !important;
-    gap: 28px !important;
+    gap: 8px !important;
   }
   .dc-stats {
     grid-template-columns: repeat(3, 1fr) !important;
-    gap: 28px !important;
+    gap: 8px !important;
   }
   .dc-meta {
     grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
@@ -494,7 +494,11 @@ a { color: inherit; text-decoration: none; }
   }
   .dc-portfolio-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
-    gap: 18px !important;
+    gap: 8px !important;
+  }
+  .dc-grid > aside,
+  .dc-grid > section {
+    gap: 8px !important;
   }
   .dc-grid > :nth-child(1),
   .dc-grid > :nth-child(2) {
