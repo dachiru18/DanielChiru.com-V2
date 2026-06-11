@@ -472,7 +472,7 @@ a { color: inherit; text-decoration: none; }
     grid-template-columns: 200px 1fr !important;
     text-align: left !important;
     padding: 40px !important;
-    gap: 32px !important;
+    gap: 8px !important;
   }
   .dc-avatar {
     margin: 0 !important;
@@ -481,12 +481,12 @@ a { color: inherit; text-decoration: none; }
     min-height: 0 !important;
   }
   .dc-grid {
-    grid-template-columns: calc((100% - 56px) / 3) 1fr !important;
-    gap: 28px !important;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.95fr) !important;
+    gap: 8px !important;
   }
   .dc-stats {
     grid-template-columns: repeat(3, 1fr) !important;
-    gap: 28px !important;
+    gap: 8px !important;
   }
   .dc-meta {
     grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
@@ -499,6 +499,10 @@ a { color: inherit; text-decoration: none; }
   .dc-grid > aside,
   .dc-grid > section {
     gap: 8px !important;
+  }
+  .dc-grid > aside > *,
+  .dc-grid > section > * {
+    margin-bottom: 8px !important;
   }
   .dc-grid > :nth-child(1),
   .dc-grid > :nth-child(2) {
