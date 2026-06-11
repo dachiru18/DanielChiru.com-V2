@@ -11,7 +11,7 @@ import {
 } from "@fluentui/react-icons";
 import portraitImage from "@/assets/daniel-portrait.jpg";
 import microsoftLogoImage from "@/assets/microsoft-logo.svg";
-import emagLogoImage from "@/assets/emag-logo-official.png";
+import emagLogoImage from "@/assets/emag-logo.svg";
 
 export const Route = createFileRoute("/")({
   ssr: false,
