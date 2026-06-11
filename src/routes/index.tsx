@@ -340,7 +340,7 @@ function Resume() {
           <header className="dc-hero">
             <button
               type="button"
-              className="dc-chip dc-download-btn"
+              className="dc-download-btn"
               onClick={handleExportPdf}
               aria-label="Export snapshot to PDF"
             >
