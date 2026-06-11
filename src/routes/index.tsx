@@ -338,6 +338,22 @@ function Resume() {
         <div className="dc-container">
           {/* HERO */}
           <header className="dc-hero">
+            <button
+              type="button"
+              className="dc-chip dc-download-btn"
+              onClick={handleExportPdf}
+              aria-label="Export snapshot to PDF"
+            >
+              <span className="dc-chip-ico" aria-hidden>
+                <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+                  <path
+                    d="M12 3a1 1 0 0 1 1 1v7.59l2.3-2.3a1 1 0 1 1 1.4 1.42l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 1 1 1.4-1.42L11 11.59V4a1 1 0 0 1 1-1Zm-7 14a1 1 0 0 1 1 1v1h12v-1a1 1 0 1 1 2 0v2a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-2a1 1 0 0 1 1-1Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </span>
+              <span>PDF</span>
+            </button>
             <img
               className="dc-avatar"
                 src={portraitImage}
@@ -364,14 +380,6 @@ function Resume() {
                   <span className="dc-chip-ico" style={{ fontWeight: 800, fontSize: 13 }}>in</span>
                   <span>Connect on LinkedIn</span>
                 </a>
-                <button
-                  type="button"
-                  className="dc-chip dc-chip-button"
-                  onClick={handleExportPdf}
-                >
-                  <span className="dc-chip-ico" style={{ fontWeight: 800, fontSize: 11 }}>PDF</span>
-                  <span>Export Snapshot to PDF</span>
-                </button>
               </div>
             </div>
           </header>
