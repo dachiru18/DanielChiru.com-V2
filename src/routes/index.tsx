@@ -329,7 +329,47 @@ function Resume() {
   }, []);
 
   const handleExportPdf = () => {
-    window.print();
+    const pageContent = document.querySelector(".dc-page") as HTMLElement | null;
+    if (!pageContent) return;
+
+    const printWindow = window.open("", "_blank", "noopener,noreferrer");
+    if (!printWindow) {
+      window.alert("Popup blocked. Please allow popups and try exporting again.");
+      return;
+    }
+
+    const styleTags = Array.from(
+      document.querySelectorAll('style, link[rel="stylesheet"]'),
+    )
+      .map((el) => el.outerHTML)
+      .join("\n");
+
+    printWindow.document.open();
+    printWindow.document.write(`
+      <!doctype html>
+      <html>
+        <head>
+          <meta charset="utf-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <title>Daniel Chiru Snapshot</title>
+          ${styleTags}
+          <style>
+            @page { size: A4; margin: 10mm; }
+            body { margin: 0; background: #fff; }
+            .dc-chip-button { display: none !important; }
+          </style>
+        </head>
+        <body>
+          ${pageContent.outerHTML}
+          <script>
+            window.addEventListener('load', () => {
+              setTimeout(() => window.print(), 300);
+            });
+          </script>
+        </body>
+      </html>
+    `);
+    printWindow.document.close();
   };
 
   return (
