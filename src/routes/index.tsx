@@ -347,7 +347,7 @@ function Resume() {
                 </div>
                 <a
                   className="dc-chip"
-                  href="https://www.linkedin.com/in/daniel-chiru"
+                  href="https://www.linkedin.com/in/danielchiru/"
                   target="_blank"
                   rel="noreferrer"
                 >
