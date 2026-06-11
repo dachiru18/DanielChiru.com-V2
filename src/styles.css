@@ -405,7 +405,7 @@ a { color: inherit; text-decoration: none; }
 @media print {
   @page { size: A4; margin: 12mm; }
   html, body { background: #fff !important; }
-  .dc-download-btn { display: none !important; }
+  .dc-download-btn, .dc-chip-button { display: none !important; }
   .dc-page { background: #fff !important; padding: 0 !important; }
   .dc-container { max-width: 100% !important; box-shadow: none !important; }
   /* Force any collapsible content open */
