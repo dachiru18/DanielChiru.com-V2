@@ -327,6 +327,11 @@ function Resume() {
     const t = setTimeout(() => setSkillsAnimated(true), 150);
     return () => clearTimeout(t);
   }, []);
+
+  const handleExportPdf = () => {
+    window.print();
+  };
+
   return (
     <>
       <main className="dc-page">
@@ -359,6 +364,14 @@ function Resume() {
                   <span className="dc-chip-ico" style={{ fontWeight: 800, fontSize: 13 }}>in</span>
                   <span>Connect on LinkedIn</span>
                 </a>
+                <button
+                  type="button"
+                  className="dc-chip dc-chip-button"
+                  onClick={handleExportPdf}
+                >
+                  <span className="dc-chip-ico" style={{ fontWeight: 800, fontSize: 11 }}>PDF</span>
+                  <span>Export Snapshot to PDF</span>
+                </button>
               </div>
             </div>
           </header>
