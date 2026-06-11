@@ -13,7 +13,7 @@ a { color: inherit; text-decoration: none; }
   padding: 48px 24px 80px;
 }
 
-.dc-container { max-width: 1280px; margin: 0 auto; display: flex; flex-direction: column; gap: 28px; }
+.dc-container { max-width: 1280px; margin: 0 auto; display: flex; flex-direction: column; gap: 20px; }
 
 .dc-hero {
   position: relative;
@@ -132,7 +132,7 @@ a { color: inherit; text-decoration: none; }
 .dc-grid {
   display: grid;
   grid-template-columns: calc((100% - 56px) / 3) 1fr;
-  gap: 28px;
+  gap: 20px;
 }
 @media (max-width: 900px) {
   .dc-page { padding: 24px 14px 60px; }
@@ -244,7 +244,7 @@ a { color: inherit; text-decoration: none; }
   flex-shrink: 0;
 }
 
-.dc-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
+.dc-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
 .dc-stat {
   position: relative;
   overflow: hidden;
