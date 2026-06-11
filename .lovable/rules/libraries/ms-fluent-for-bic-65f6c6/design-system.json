@@ -1,0 +1,1543 @@
+{
+  "meta": {
+    "name": "MS Fluent for BIC",
+    "package": "@ws-workspace-mky6rpg2mnzxhwgkxy7/37cc4f93-125b-40e7-8c44-a463af305fed",
+    "version": "1.0.0",
+    "framework": "react",
+    "css_framework": "tailwind",
+    "starter_template": "custom_design_system_tailwind",
+    "theme_files": [
+      "src/index.css"
+    ],
+    "source_type": "local"
+  },
+  "tokens": {
+    "color": [
+      {
+        "name": "--colorNeutralBackground1",
+        "raw": "#ffffff",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralBackground1Hover",
+        "raw": "#f5f5f5",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralBackground1Pressed",
+        "raw": "#e0e0e0",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralBackground1Selected",
+        "raw": "#ebebeb",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralBackground2",
+        "raw": "#fafafa",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralBackground2Hover",
+        "raw": "#f0f0f0",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralBackground2Pressed",
+        "raw": "#dbdbdb",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralBackground2Selected",
+        "raw": "#e6e6e6",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralBackground3",
+        "raw": "#f5f5f5",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralBackground3Hover",
+        "raw": "#ebebeb",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralBackground3Pressed",
+        "raw": "#d6d6d6",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralBackground3Selected",
+        "raw": "#e0e0e0",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralBackground4",
+        "raw": "#f0f0f0",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralBackground4Hover",
+        "raw": "#fafafa",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralBackground4Pressed",
+        "raw": "#f5f5f5",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralBackground4Selected",
+        "raw": "#ffffff",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralBackground5",
+        "raw": "#ebebeb",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralBackground5Hover",
+        "raw": "#f5f5f5",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralBackground5Pressed",
+        "raw": "#f0f0f0",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralBackground5Selected",
+        "raw": "#fafafa",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralBackground6",
+        "raw": "#e6e6e6",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralBackground7",
+        "raw": "#00000000",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralBackground7Hover",
+        "raw": "#ebebeb",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralBackground7Pressed",
+        "raw": "#d6d6d6",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralBackground7Selected",
+        "raw": "#00000000",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralBackground8",
+        "raw": "#fcfcfc",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralBackgroundInverted",
+        "raw": "#292929",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralBackgroundInvertedHover",
+        "raw": "#3d3d3d",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralBackgroundInvertedPressed",
+        "raw": "#1f1f1f",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralBackgroundInvertedSelected",
+        "raw": "#383838",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralBackgroundStatic",
+        "raw": "#333333",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralBackgroundAlpha",
+        "raw": "rgba(255, 255, 255, 0.5)",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralBackgroundAlpha2",
+        "raw": "rgba(255, 255, 255, 0.8)",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralBackgroundDisabled",
+        "raw": "#f0f0f0",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralBackgroundDisabled2",
+        "raw": "#ffffff",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralBackgroundInvertedDisabled",
+        "raw": "rgba(255, 255, 255, 0.1)",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralCardBackground",
+        "raw": "#fafafa",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralCardBackgroundHover",
+        "raw": "#ffffff",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralCardBackgroundPressed",
+        "raw": "#f5f5f5",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralCardBackgroundSelected",
+        "raw": "#ebebeb",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralCardBackgroundDisabled",
+        "raw": "#f0f0f0",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorSubtleBackground",
+        "raw": "transparent",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorSubtleBackgroundHover",
+        "raw": "#f5f5f5",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorSubtleBackgroundPressed",
+        "raw": "#e0e0e0",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorSubtleBackgroundSelected",
+        "raw": "#ebebeb",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorSubtleBackgroundLightAlphaHover",
+        "raw": "rgba(255, 255, 255, 0.7)",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorSubtleBackgroundLightAlphaPressed",
+        "raw": "rgba(255, 255, 255, 0.5)",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorSubtleBackgroundLightAlphaSelected",
+        "raw": "transparent",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorSubtleBackgroundInverted",
+        "raw": "transparent",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorSubtleBackgroundInvertedHover",
+        "raw": "rgba(0, 0, 0, 0.1)",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorSubtleBackgroundInvertedPressed",
+        "raw": "rgba(0, 0, 0, 0.3)",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorSubtleBackgroundInvertedSelected",
+        "raw": "rgba(0, 0, 0, 0.2)",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorTransparentBackground",
+        "raw": "transparent",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorTransparentBackgroundHover",
+        "raw": "transparent",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorTransparentBackgroundPressed",
+        "raw": "transparent",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorTransparentBackgroundSelected",
+        "raw": "transparent",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralStencil1",
+        "raw": "#e6e6e6",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralStencil2",
+        "raw": "#fafafa",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralStencil1Alpha",
+        "raw": "rgba(0, 0, 0, 0.1)",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralStencil2Alpha",
+        "raw": "rgba(0, 0, 0, 0.05)",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorBackgroundOverlay",
+        "raw": "rgba(0, 0, 0, 0.4)",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorScrollbarOverlay",
+        "raw": "rgba(0, 0, 0, 0.5)",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralForeground1",
+        "raw": "#242424",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralForeground1Hover",
+        "raw": "#242424",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralForeground1Pressed",
+        "raw": "#242424",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralForeground1Selected",
+        "raw": "#242424",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralForeground1Static",
+        "raw": "#242424",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralForeground2",
+        "raw": "#424242",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralForeground2Hover",
+        "raw": "#242424",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralForeground2Pressed",
+        "raw": "#242424",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralForeground2Selected",
+        "raw": "#242424",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralForeground2BrandHover",
+        "raw": "#0f6cbd",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralForeground2BrandPressed",
+        "raw": "#115ea3",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralForeground2BrandSelected",
+        "raw": "#0f6cbd",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralForeground2Link",
+        "raw": "#424242",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralForeground2LinkHover",
+        "raw": "#242424",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralForeground2LinkPressed",
+        "raw": "#242424",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralForeground2LinkSelected",
+        "raw": "#242424",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralForeground3",
+        "raw": "#616161",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralForeground3Hover",
+        "raw": "#424242",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralForeground3Pressed",
+        "raw": "#424242",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralForeground3Selected",
+        "raw": "#424242",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralForeground3BrandHover",
+        "raw": "#0f6cbd",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralForeground3BrandPressed",
+        "raw": "#115ea3",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralForeground3BrandSelected",
+        "raw": "#0f6cbd",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralForeground4",
+        "raw": "#707070",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralForeground5",
+        "raw": "#616161",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralForeground5Hover",
+        "raw": "#242424",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralForeground5Pressed",
+        "raw": "#242424",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralForeground5Selected",
+        "raw": "#242424",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralForegroundDisabled",
+        "raw": "#bdbdbd",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralForegroundInvertedDisabled",
+        "raw": "rgba(255, 255, 255, 0.4)",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralForegroundOnBrand",
+        "raw": "#ffffff",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralForegroundStaticInverted",
+        "raw": "#ffffff",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralForegroundInverted",
+        "raw": "#ffffff",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralForegroundInvertedHover",
+        "raw": "#ffffff",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralForegroundInvertedPressed",
+        "raw": "#ffffff",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralForegroundInvertedSelected",
+        "raw": "#ffffff",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralForegroundInverted2",
+        "raw": "#ffffff",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralForegroundInvertedLink",
+        "raw": "#ffffff",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralForegroundInvertedLinkHover",
+        "raw": "#ffffff",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralForegroundInvertedLinkPressed",
+        "raw": "#ffffff",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralForegroundInvertedLinkSelected",
+        "raw": "#ffffff",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorBrandBackground",
+        "raw": "#0f6cbd",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorBrandBackgroundHover",
+        "raw": "#115ea3",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorBrandBackgroundPressed",
+        "raw": "#0c3b5e",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorBrandBackgroundSelected",
+        "raw": "#0f548c",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorBrandBackgroundStatic",
+        "raw": "#0f6cbd",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorBrandBackground2",
+        "raw": "#ebf3fc",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorBrandBackground2Hover",
+        "raw": "#cfe4fa",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorBrandBackground2Pressed",
+        "raw": "#96c6fa",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorBrandBackground3Static",
+        "raw": "#0f548c",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorBrandBackground4Static",
+        "raw": "#0c3b5e",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorBrandBackgroundInverted",
+        "raw": "#ffffff",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorBrandBackgroundInvertedHover",
+        "raw": "#ebf3fc",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorBrandBackgroundInvertedPressed",
+        "raw": "#b4d6fa",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorBrandBackgroundInvertedSelected",
+        "raw": "#cfe4fa",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorBrandForeground1",
+        "raw": "#0f6cbd",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorBrandForeground2",
+        "raw": "#115ea3",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorBrandForeground2Hover",
+        "raw": "#0f548c",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorBrandForeground2Pressed",
+        "raw": "#0a2e4a",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorBrandForegroundLink",
+        "raw": "#115ea3",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorBrandForegroundLinkHover",
+        "raw": "#0f548c",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorBrandForegroundLinkPressed",
+        "raw": "#0c3b5e",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorBrandForegroundLinkSelected",
+        "raw": "#115ea3",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorBrandForegroundInverted",
+        "raw": "#479ef5",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorBrandForegroundInvertedHover",
+        "raw": "#62abf5",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorBrandForegroundInvertedPressed",
+        "raw": "#479ef5",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorBrandForegroundOnLight",
+        "raw": "#0f6cbd",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorBrandForegroundOnLightHover",
+        "raw": "#115ea3",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorBrandForegroundOnLightPressed",
+        "raw": "#0e4775",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorBrandForegroundOnLightSelected",
+        "raw": "#0f548c",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorCompoundBrandForeground1",
+        "raw": "#0f6cbd",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorCompoundBrandForeground1Hover",
+        "raw": "#115ea3",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorCompoundBrandForeground1Pressed",
+        "raw": "#0f548c",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorCompoundBrandBackground",
+        "raw": "#0f6cbd",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorCompoundBrandBackgroundHover",
+        "raw": "#115ea3",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorCompoundBrandBackgroundPressed",
+        "raw": "#0f548c",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorCompoundBrandStroke",
+        "raw": "#0f6cbd",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorCompoundBrandStrokeHover",
+        "raw": "#115ea3",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorCompoundBrandStrokePressed",
+        "raw": "#0f548c",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralStroke1",
+        "raw": "#d1d1d1",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralStroke1Hover",
+        "raw": "#c7c7c7",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralStroke1Pressed",
+        "raw": "#b3b3b3",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralStroke1Selected",
+        "raw": "#bdbdbd",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralStroke2",
+        "raw": "#e0e0e0",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralStroke3",
+        "raw": "#f0f0f0",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralStroke4",
+        "raw": "#ebebeb",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralStroke4Hover",
+        "raw": "#e0e0e0",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralStroke4Pressed",
+        "raw": "#d6d6d6",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralStroke4Selected",
+        "raw": "#ebebeb",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralStrokeSubtle",
+        "raw": "#e0e0e0",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralStrokeAccessible",
+        "raw": "#616161",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralStrokeAccessibleHover",
+        "raw": "#575757",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralStrokeAccessiblePressed",
+        "raw": "#4d4d4d",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralStrokeAccessibleSelected",
+        "raw": "#0f6cbd",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralStrokeOnBrand",
+        "raw": "#ffffff",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralStrokeOnBrand2",
+        "raw": "#ffffff",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralStrokeDisabled",
+        "raw": "#e0e0e0",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralStrokeDisabled2",
+        "raw": "#ebebeb",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralStrokeInvertedDisabled",
+        "raw": "rgba(255, 255, 255, 0.4)",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralStrokeAlpha",
+        "raw": "rgba(0, 0, 0, 0.05)",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorNeutralStrokeAlpha2",
+        "raw": "rgba(255, 255, 255, 0.2)",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorBrandStroke1",
+        "raw": "#0f6cbd",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorBrandStroke2",
+        "raw": "#b4d6fa",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorBrandStroke2Hover",
+        "raw": "#77b7f7",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorBrandStroke2Pressed",
+        "raw": "#0f6cbd",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorBrandStroke2Contrast",
+        "raw": "#b4d6fa",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorTransparentStroke",
+        "raw": "transparent",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorTransparentStrokeInteractive",
+        "raw": "transparent",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorTransparentStrokeDisabled",
+        "raw": "transparent",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorStrokeFocus1",
+        "raw": "#ffffff",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorStrokeFocus2",
+        "raw": "#000000",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorStatusSuccessBackground1",
+        "raw": "#f1faf1",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorStatusSuccessBackground2",
+        "raw": "#9fd89f",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorStatusSuccessBackground3",
+        "raw": "#107c10",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorStatusSuccessForeground1",
+        "raw": "#0e700e",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorStatusSuccessForeground2",
+        "raw": "#094509",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorStatusSuccessForeground3",
+        "raw": "#107c10",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorStatusSuccessForegroundInverted",
+        "raw": "#54b054",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorStatusSuccessBorderActive",
+        "raw": "#107c10",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorStatusSuccessBorder1",
+        "raw": "#9fd89f",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorStatusSuccessBorder2",
+        "raw": "#107c10",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorStatusWarningBackground1",
+        "raw": "#fff9f5",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorStatusWarningBackground2",
+        "raw": "#fdcfb4",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorStatusWarningBackground3",
+        "raw": "#f7630c",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorStatusWarningForeground1",
+        "raw": "#bc4b09",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorStatusWarningForeground2",
+        "raw": "#8a3707",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorStatusWarningForeground3",
+        "raw": "#bc4b09",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorStatusWarningForegroundInverted",
+        "raw": "#faa06b",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorStatusWarningBorderActive",
+        "raw": "#f7630c",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorStatusWarningBorder1",
+        "raw": "#fdcfb4",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorStatusWarningBorder2",
+        "raw": "#bc4b09",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorStatusDangerBackground1",
+        "raw": "#fdf3f4",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorStatusDangerBackground2",
+        "raw": "#eeacb2",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorStatusDangerBackground3",
+        "raw": "#c50f1f",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorStatusDangerBackground3Hover",
+        "raw": "#b10e1c",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorStatusDangerBackground3Pressed",
+        "raw": "#960b18",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorStatusDangerForeground1",
+        "raw": "#b10e1c",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorStatusDangerForeground2",
+        "raw": "#6e0811",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorStatusDangerForeground3",
+        "raw": "#c50f1f",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorStatusDangerForegroundInverted",
+        "raw": "#dc626d",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorStatusDangerBorderActive",
+        "raw": "#c50f1f",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorStatusDangerBorder1",
+        "raw": "#eeacb2",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--colorStatusDangerBorder2",
+        "raw": "#c50f1f",
+        "source": "src/index.css"
+      }
+    ],
+    "spacing": [
+      {
+        "name": "--spacingHorizontalNone",
+        "raw": "0",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--spacingHorizontalXXS",
+        "raw": "2px",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--spacingHorizontalXS",
+        "raw": "4px",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--spacingHorizontalSNudge",
+        "raw": "6px",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--spacingHorizontalS",
+        "raw": "8px",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--spacingHorizontalMNudge",
+        "raw": "10px",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--spacingHorizontalM",
+        "raw": "12px",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--spacingHorizontalL",
+        "raw": "16px",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--spacingHorizontalXL",
+        "raw": "20px",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--spacingHorizontalXXL",
+        "raw": "24px",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--spacingHorizontalXXXL",
+        "raw": "32px",
+        "source": "src/index.css"
+      }
+    ],
+    "typography": [
+      {
+        "name": "--fontFamilyBase",
+        "raw": "\"Segoe UI\", -apple-system, BlinkMacSystemFont, \"Roboto\", \"Helvetica Neue\", sans-serif",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--fontFamilyMonospace",
+        "raw": "\"Cascadia Code\", \"Fira Code\", Consolas, monospace",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--fontFamilyNumeric",
+        "raw": "Bahnschrift, \"Segoe UI\", system-ui, sans-serif",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--fontSizeBase100",
+        "raw": "10px",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--fontSizeBase200",
+        "raw": "12px",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--fontSizeBase300",
+        "raw": "14px",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--fontSizeBase400",
+        "raw": "16px",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--fontSizeBase500",
+        "raw": "20px",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--fontSizeBase600",
+        "raw": "24px",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--fontSizeHero700",
+        "raw": "28px",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--fontSizeHero800",
+        "raw": "32px",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--fontSizeHero900",
+        "raw": "40px",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--fontSizeHero1000",
+        "raw": "68px",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--lineHeightBase100",
+        "raw": "14px",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--lineHeightBase200",
+        "raw": "16px",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--lineHeightBase300",
+        "raw": "20px",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--lineHeightBase400",
+        "raw": "22px",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--lineHeightBase500",
+        "raw": "28px",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--lineHeightBase600",
+        "raw": "32px",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--lineHeightHero700",
+        "raw": "36px",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--lineHeightHero800",
+        "raw": "40px",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--lineHeightHero900",
+        "raw": "52px",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--lineHeightHero1000",
+        "raw": "92px",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--fontWeightRegular",
+        "raw": "400",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--fontWeightMedium",
+        "raw": "500",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--fontWeightSemibold",
+        "raw": "600",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--fontWeightBold",
+        "raw": "700",
+        "source": "src/index.css"
+      }
+    ],
+    "radius": [
+      {
+        "name": "--borderRadiusNone",
+        "raw": "0",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--borderRadiusSmall",
+        "raw": "2px",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--borderRadiusMedium",
+        "raw": "4px",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--borderRadiusLarge",
+        "raw": "6px",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--borderRadiusXLarge",
+        "raw": "8px",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--borderRadiusCircular",
+        "raw": "10000px",
+        "source": "src/index.css"
+      }
+    ],
+    "other": [
+      {
+        "name": "--shadow2",
+        "raw": "0 0 2px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.14)",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--shadow4",
+        "raw": "0 0 2px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.14)",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--shadow8",
+        "raw": "0 0 2px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.14)",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--shadow16",
+        "raw": "0 0 2px rgba(0, 0, 0, 0.12), 0 8px 16px rgba(0, 0, 0, 0.14)",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--shadow28",
+        "raw": "0 0 8px rgba(0, 0, 0, 0.12), 0 14px 28px rgba(0, 0, 0, 0.14)",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--shadow64",
+        "raw": "0 0 8px rgba(0, 0, 0, 0.12), 0 32px 64px rgba(0, 0, 0, 0.24)",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--shadow2Brand",
+        "raw": "0 0 2px rgba(0, 0, 0, 0.3), 0 1px 2px rgba(0, 0, 0, 0.25)",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--shadow4Brand",
+        "raw": "0 0 2px rgba(0, 0, 0, 0.3), 0 2px 4px rgba(0, 0, 0, 0.25)",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--shadow8Brand",
+        "raw": "0 0 2px rgba(0, 0, 0, 0.3), 0 4px 8px rgba(0, 0, 0, 0.25)",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--shadow16Brand",
+        "raw": "0 0 2px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.25)",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--durationUltraFast",
+        "raw": "50ms",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--durationFaster",
+        "raw": "100ms",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--durationFast",
+        "raw": "150ms",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--durationNormal",
+        "raw": "200ms",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--durationGentle",
+        "raw": "250ms",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--durationSlow",
+        "raw": "300ms",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--durationSlower",
+        "raw": "400ms",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--durationUltraSlow",
+        "raw": "500ms",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--curveAccelerateMax",
+        "raw": "cubic-bezier(1, 0, 1, 1)",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--curveAccelerateMid",
+        "raw": "cubic-bezier(0.7, 0, 1, 0.5)",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--curveAccelerateMin",
+        "raw": "cubic-bezier(0.8, 0, 1, 1)",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--curveDecelerateMax",
+        "raw": "cubic-bezier(0, 0, 0, 1)",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--curveDecelerateMid",
+        "raw": "cubic-bezier(0.1, 0.9, 0.2, 1)",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--curveDecelerateMin",
+        "raw": "cubic-bezier(0.33, 0, 0.1, 1)",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--curveEasyEase",
+        "raw": "cubic-bezier(0.33, 0, 0.67, 1)",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--curveEasyEaseMax",
+        "raw": "cubic-bezier(0.8, 0, 0.1, 1)",
+        "source": "src/index.css"
+      },
+      {
+        "name": "--curveLinear",
+        "raw": "cubic-bezier(0, 0, 1, 1)",
+        "source": "src/index.css"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "ThemeContextProvider",
+      "file": "src/lib/ThemeContext",
+      "import_path": ""
+    },
+    {
+      "name": "ExampleCard",
+      "file": "src/showcase/ExampleCard",
+      "import_path": ""
+    },
+    {
+      "name": "ButtonsPanel",
+      "file": "src/showcase/panels/ActionsPanel",
+      "import_path": ""
+    },
+    {
+      "name": "MenusPanel",
+      "file": "src/showcase/panels/ActionsPanel",
+      "import_path": ""
+    },
+    {
+      "name": "BadgesPanel",
+      "file": "src/showcase/panels/DataDisplayPanel",
+      "import_path": ""
+    },
+    {
+      "name": "TagsPanel",
+      "file": "src/showcase/panels/DataDisplayPanel",
+      "import_path": ""
+    },
+    {
+      "name": "AvatarsPanel",
+      "file": "src/showcase/panels/DataDisplayPanel",
+      "import_path": ""
+    },
+    {
+      "name": "DividerPanel",
+      "file": "src/showcase/panels/DataDisplayPanel",
+      "import_path": ""
+    },
+    {
+      "name": "StatusPanel",
+      "file": "src/showcase/panels/FeedbackPanel",
+      "import_path": ""
+    },
+    {
+      "name": "ToastPanel",
+      "file": "src/showcase/panels/FeedbackPanel",
+      "import_path": ""
+    },
+    {
+      "name": "LoadingPanel",
+      "file": "src/showcase/panels/FeedbackPanel",
+      "import_path": ""
+    },
+    {
+      "name": "SurfacesPanel",
+      "file": "src/showcase/panels/FeedbackPanel",
+      "import_path": ""
+    },
+    {
+      "name": "FormsPanel",
+      "file": "src/showcase/panels/FormsPanel",
+      "import_path": ""
+    },
+    {
+      "name": "ComboboxPanel",
+      "file": "src/showcase/panels/FormsPanel",
+      "import_path": ""
+    },
+    {
+      "name": "TogglesPanel",
+      "file": "src/showcase/panels/FormsPanel",
+      "import_path": ""
+    },
+    {
+      "name": "TypographyPanel",
+      "file": "src/showcase/panels/FoundationPanel",
+      "import_path": ""
+    },
+    {
+      "name": "SpacingPanel",
+      "file": "src/showcase/panels/FoundationPanel",
+      "import_path": ""
+    },
+    {
+      "name": "SkeletonPanel",
+      "file": "src/showcase/panels/FoundationPanel",
+      "import_path": ""
+    },
+    {
+      "name": "PalettePanel",
+      "file": "src/showcase/panels/FoundationPanel",
+      "import_path": ""
+    },
+    {
+      "name": "CardPanel",
+      "file": "src/showcase/panels/LayoutPanel",
+      "import_path": ""
+    },
+    {
+      "name": "TablePanel",
+      "file": "src/showcase/panels/LayoutPanel",
+      "import_path": ""
+    },
+    {
+      "name": "TabsPanel",
+      "file": "src/showcase/panels/NavigationPanel",
+      "import_path": ""
+    },
+    {
+      "name": "BreadcrumbPanel",
+      "file": "src/showcase/panels/NavigationPanel",
+      "import_path": ""
+    },
+    {
+      "name": "AccordionPanel",
+      "file": "src/showcase/panels/OverlaysPanel",
+      "import_path": ""
+    },
+    {
+      "name": "DialogPanel",
+      "file": "src/showcase/panels/OverlaysPanel",
+      "import_path": ""
+    },
+    {
+      "name": "ToolbarPanel",
+      "file": "src/showcase/panels/OverlaysPanel",
+      "import_path": ""
+    },
+    {
+      "name": "PopoverPanel",
+      "file": "src/showcase/panels/OverlaysPanel",
+      "import_path": ""
+    }
+  ]
+}
