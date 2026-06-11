@@ -403,7 +403,7 @@ a { color: inherit; text-decoration: none; }
 
 /* Print / PDF export — ensure everything is visible and expanded */
 @media print {
-  @page { size: A4; margin: 12mm; }
+  @page { size: A4 portrait; margin: 10px; }
   html, body {
     -webkit-print-color-adjust: exact !important;
     print-color-adjust: exact !important;
@@ -415,6 +415,22 @@ a { color: inherit; text-decoration: none; }
   .dc-download-btn, .dc-chip-button { display: none !important; }
   .dc-page { padding: 0 !important; }
   .dc-container { max-width: 100% !important; }
+  .dc-grid {
+    grid-template-columns: calc((100% - 56px) / 3) 1fr !important;
+    gap: 28px !important;
+  }
+  .dc-stats {
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 28px !important;
+  }
+  .dc-meta {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    max-width: 640px !important;
+  }
+  .dc-grid > :nth-child(1),
+  .dc-grid > :nth-child(2) {
+    order: initial !important;
+  }
   /* Force any collapsible content open */
   details { display: block !important; }
   details > summary { display: block !important; }
