@@ -76,6 +76,11 @@ const certs = [
   { code: "HK", label: "Microsoft Hackathon 2020", url: "https://www.youracclaim.com/badges/8683a69b-9712-4a2f-92e4-5b2c65e7d689/linked_in_profile" },
 ];
 
+const languages = [
+  { code: "RO", name: "Romanian", level: "Native" },
+  { code: "EN", name: "English", level: "Full professional proficiency" },
+];
+
 function CertIcon({ code }: { code: string }) {
   switch (code) {
     case "AI": // Copilot
@@ -486,6 +491,27 @@ function Resume() {
                       <div className="dc-cert-icon"><CertIcon code={c.code} /></div>
                       <span>{c.label}</span>
                     </a>
+                  ))}
+                </div>
+              </section>
+
+              <section className="dc-card">
+                <h2 className="dc-section-title">
+                  <BookOpen24Regular /> Languages
+                </h2>
+                <div
+                  style={{ display: "flex", flexDirection: "column", gap: 10 }}
+                >
+                  {languages.map((l) => (
+                    <div key={l.code} className="dc-cert">
+                      <div className="dc-cert-icon">
+                        <span style={{ fontSize: 11, fontWeight: 700 }}>{l.code}</span>
+                      </div>
+                      <div style={{ display: "flex", flexDirection: "column", lineHeight: 1.2 }}>
+                        <span style={{ fontWeight: 600 }}>{l.name}</span>
+                        <span style={{ color: "var(--colorNeutralForeground3)", fontSize: 12 }}>{l.level}</span>
+                      </div>
+                    </div>
                   ))}
                 </div>
               </section>
