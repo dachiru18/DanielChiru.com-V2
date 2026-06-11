@@ -9,9 +9,9 @@ import {
   Trophy24Regular,
   Grid24Regular,
 } from "@fluentui/react-icons";
-import portraitAsset from "@/assets/daniel-portrait.jpg.asset.json";
-import microsoftLogo from "@/assets/microsoft-logo.svg.asset.json";
-import emagLogo from "@/assets/emag-logo.png.asset.json";
+import portraitImage from "@/assets/daniel-portrait.jpg";
+import microsoftLogoImage from "@/assets/microsoft-logo.svg";
+import emagLogoImage from "@/assets/emag-logo.png";
 
 export const Route = createFileRoute("/")({
   ssr: false,
@@ -30,10 +30,10 @@ export const Route = createFileRoute("/")({
         content:
           "Senior Data Analyst at Microsoft. Power BI, Microsoft Fabric, Azure, AI analytics and executive dashboards.",
       },
-      { property: "og:image", content: portraitAsset.url },
+      { property: "og:image", content: portraitImage },
       { name: "twitter:title", content: "Daniel Chiru · Modern Data Analyst" },
       { name: "twitter:description", content: "Senior Data Analyst at Microsoft. Power BI, Fabric, Azure, AI analytics." },
-      { name: "twitter:image", content: portraitAsset.url },
+      { name: "twitter:image", content: portraitImage },
     ],
   }),
   component: Resume,
@@ -330,7 +330,7 @@ function Resume() {
           <header className="dc-hero">
             <img
               className="dc-avatar"
-              src={portraitAsset.url}
+                src={portraitImage}
               alt="Daniel Chiru"
             />
             <div>
@@ -567,7 +567,7 @@ function Resume() {
                   return (
                     <div className="dc-company">
                       <div className="dc-company-logo">
-                        <img src={microsoftLogo.url} alt="Microsoft" />
+                        <img src={microsoftLogoImage} alt="Microsoft" />
                       </div>
                       <div>
                         <div className="dc-company-name">Microsoft</div>
@@ -696,7 +696,7 @@ function Resume() {
                 >
                   <div className="dc-company-logo">
                     <img
-                      src={emagLogo.url}
+                      src={emagLogoImage}
                       alt="eMAG"
                     />
                   </div>
