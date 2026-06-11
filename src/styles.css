@@ -404,10 +404,17 @@ a { color: inherit; text-decoration: none; }
 /* Print / PDF export — ensure everything is visible and expanded */
 @media print {
   @page { size: A4; margin: 12mm; }
-  html, body { background: #fff !important; }
+  html, body {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+  *, *::before, *::after {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
   .dc-download-btn, .dc-chip-button { display: none !important; }
-  .dc-page { background: #fff !important; padding: 0 !important; }
-  .dc-container { max-width: 100% !important; box-shadow: none !important; }
+  .dc-page { padding: 0 !important; }
+  .dc-container { max-width: 100% !important; }
   /* Force any collapsible content open */
   details { display: block !important; }
   details > summary { display: block !important; }
