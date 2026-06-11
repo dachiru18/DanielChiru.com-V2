@@ -455,3 +455,39 @@ a { color: inherit; text-decoration: none; }
   .dc-grid > :nth-child(1) { order: 2; }
   .dc-grid > :nth-child(2) { order: 1; }
 }
+
+/* Final print lock: keep desktop layout even when print viewport is < 900px */
+@media print {
+  .dc-hero {
+    grid-template-columns: 200px 1fr !important;
+    text-align: left !important;
+    padding: 40px !important;
+    gap: 32px !important;
+  }
+  .dc-avatar {
+    margin: 0 !important;
+    width: 200px !important;
+    height: 260px !important;
+    min-height: 0 !important;
+  }
+  .dc-grid {
+    grid-template-columns: calc((100% - 56px) / 3) 1fr !important;
+    gap: 28px !important;
+  }
+  .dc-stats {
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 28px !important;
+  }
+  .dc-meta {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    max-width: 640px !important;
+  }
+  .dc-portfolio-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    gap: 18px !important;
+  }
+  .dc-grid > :nth-child(1),
+  .dc-grid > :nth-child(2) {
+    order: initial !important;
+  }
+}
